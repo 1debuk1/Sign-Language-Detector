@@ -10,7 +10,7 @@ const char* ssid = "LAPTOP";
 const char* password = "123456789";
 
 // Server configuration
-const char* serverURL = "http://172.17.1.33:5000/detect";  // Replace with your laptop's IP
+const char* serverURL = "http://158.1.1.1:5000/detect";  // Replace with your laptop's IP
 
 // LCD display configuration (16x2 LCD with I2C)
 #define LCD_COLS 16
@@ -368,3 +368,4 @@ void displayResult(String jsonResponse) {
     lcd_print("Try again...");
   }
 }
+
